@@ -1,7 +1,3 @@
 # Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+Proyecto creado con la finalidad de practicar Vue 3, CSS y HTML, simulando un planificador de gastos, donde serás capas de ingresar un monto inicial (que podría ser tu sueldo mensual), luego iras agregando gastos basados en unas categorías de gastos predefinidas, definirás el nombre del gasto, la cantidad gastada y seleccionaras la categoría de gasto que creas adecuada, podrás administrar los gastos ingresados seleccionado el nombre de alguno de ellos, te aparecerá el formulario donde podrás editarlo o borrarlo, además cuenta con un plus de un grafico circular donde veras en porcentaje el gasto total que has realizado.
