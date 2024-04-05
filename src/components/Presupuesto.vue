@@ -59,6 +59,7 @@
         text-align: center;
         color: var(--azul);
     }
+  
     .presupuesto input[type="number"]{
         background-color: var(--gris-claro);
         border-radius: 1rem;
@@ -83,5 +84,16 @@
     .presupuesto input[type="submit"]:hover{
         background-color: #1048A4;
         cursor: pointer;
+    }
+    @media(max-width:375px){
+        .presupuesto label {
+            font-size: 2rem;
+        }
+        .presupuesto input[type="submit"]{
+            font-size: 1.6rem !important;
+        }
+        .presupuesto input[type="number"]{
+            font-size: 1.6rem !important;
+        }
     }
 </style>

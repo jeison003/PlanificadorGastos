@@ -222,11 +222,22 @@
         width: 100%;
         background-color: #ef4444;
         font-weight: 700;
-        font-size: 2.2rem;;
+        font-size: 2.2rem;
         color: var(--blanco);
         margin-top: 10rem;
         cursor: pointer;
         border: none;
         border-radius: 1rem;
     }
+   @media(max-width:600px){
+        .nuevo-gasto input, .nuevo-gasto select, option{
+            font-size: 1.5rem !important;
+        }
+        .nuevo-gasto label{
+            font-size: 1.8rem !important;
+        } 
+        option{
+            font-size: 1.3rem !important;
+        }  
+   }
 </style>
